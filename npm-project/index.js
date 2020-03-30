@@ -1,8 +1,6 @@
-var request = require('request');
+const calc = require('tstunes-test');
 
-request('http://www.google.com', function (error, response, body) {
-  console.log('error: ', error);
-  console.log('respose: ', response && response.statusCode);
-  console.log('body: ', body);
-  
-})
+
+console.log(calc.sum(23,-89));
+console.log(calc.sub(50,35));
+
