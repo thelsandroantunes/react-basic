@@ -1,9 +1,9 @@
-const calc = require('./index');
+//const calc = require('./index');
 
 
 
 try {
-  let sumTest = calc.sum(2,2);
+  /*let sumTest = calc.sum(2,2);
 
   if (sumTest != 4) {
     throw new Error("A soma de 2 + 2 está errada, valor: " + sumTest);
@@ -23,10 +23,13 @@ try {
   let divTest = calc.div(6,2);
   if (divTest != 3) {
     throw new Error("A divisão de 6 / 2 está errada, valor: " + divTest);
-  }
+  }*/
+  
+  console.log("Success");
   
   
 } catch (e) {
+  console.log("Failed");
   throw e.message;
   
 }
